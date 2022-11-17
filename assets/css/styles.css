@@ -334,17 +334,21 @@ section {
   display: inline-block;
 }
 
+.mh-copyright .social-icon {
+  display: block;
+  text-align: center;
+}
+
 .social-icon li {
   list-style: none;
-  float: left;
+  display: inline;
   margin-bottom: 0px;
   margin-right: 8px;
+  font-size: 25px;
 }
 
 .social-icon li a {
   text-align: center;
-  width: 45px;
-  height: 45px;
   padding: 10px;
   border-radius: 50%;
 }

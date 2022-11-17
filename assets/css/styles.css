@@ -1034,9 +1034,9 @@ body {
 }
 
 .mh-home .img-border {
-  height: 400px;
-  width: 400px;
-  border: 20px solid rgba(0, 0, 0, 0.07);
+  height: 80%;
+  width: 80%;
+  border: 25px solid rgba(0, 0, 0, 0.07);
   margin: 0 auto;
   border-radius: 50%;
 }

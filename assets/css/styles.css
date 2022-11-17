@@ -1467,3 +1467,12 @@ body {
   line-height: 27px;
   margin-left: 6px;
 }
+
+/* Floating Icon for Theme Switch */
+.floating-icon {
+  position: fixed;
+  font-size: 30px;
+  bottom: 5%;
+  right: 2%;
+  z-index: 999;
+}

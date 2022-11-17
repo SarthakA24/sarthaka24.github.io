@@ -499,7 +499,7 @@ h6 {
   font-weight: bold;
 }
 
-.white-vertion .white-bg {
+.white-vertion .black-bg {
   background-color: #fff;
 }
 
@@ -635,6 +635,10 @@ h6 {
   border-color: #000;
 }
 
+.white-vertion .mh-header {
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.366);
+}
+
 .white-vertion .mh-header.nav-3 .navbar-nav li.active a {
   border-color: transparent;
 }
@@ -653,6 +657,9 @@ h6 {
 
 .dark-vertion {
   opacity: 0.9;
+}
+
+.dark-vertion.black-bg {
   background-color: #100e17;
 }
 
@@ -881,6 +888,9 @@ body {
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  z-index: 98;
+  background-color: #202026;
+  box-shadow: 2px 2px 10px black;
 }
 
 .mh-header.nav-strict {
@@ -1415,7 +1425,6 @@ body {
   right: 0;
 }
 
-
 /*
     ==============
        SERVICES
@@ -1457,4 +1466,4 @@ body {
   font-size: 16px;
   line-height: 27px;
   margin-left: 6px;
-} 
+}

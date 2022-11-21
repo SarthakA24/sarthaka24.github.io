@@ -4,9 +4,9 @@
 }
 
 .shadow-1 {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 
 html {
@@ -24,7 +24,7 @@ body {
   text-align: left;
   position: relative;
   color: #999999;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 h1,
@@ -37,19 +37,19 @@ h6 {
 }
 
 p {
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .nav li a {
   text-decoration: none !important;
   display: inline-block;
   cursor: pointer;
-  padding: 0px;
+  padding: 0;
   background-color: transparent;
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  -moz-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
 }
 
 .nav li a:hover {
@@ -64,14 +64,14 @@ p {
 a {
   text-decoration: none !important;
   cursor: pointer;
-  padding: 0px;
+  padding: 0;
   background-color: transparent;
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  -moz-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
   color: #000;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 a:hover {
@@ -169,10 +169,10 @@ section {
 }
 
 .btn {
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  -moz-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
   outline: 0;
   padding: 8px 30px;
   font-weight: bold;
@@ -180,7 +180,7 @@ section {
 }
 
 .btn:last-child {
-  margin-right: 0px !important;
+  margin-right: 0 !important;
 }
 
 .btn .icon {
@@ -254,10 +254,10 @@ section {
 .btn.apple span,
 .btn.androad span {
   display: block;
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  -moz-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
 }
 
 .btn.apple .group,
@@ -292,7 +292,7 @@ section {
 .btn:active:focus,
 .btn:focus {
   outline: thin dotted;
-  outline: 0px auto -webkit-focus-ring-color !important;
+  outline: 0 auto -webkit-focus-ring-color !important;
   outline-offset: -2px;
 }
 
@@ -317,7 +317,7 @@ section {
 .social-icon li {
   list-style: none;
   display: inline;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-right: 8px;
   font-size: 25px;
 }
@@ -329,7 +329,7 @@ section {
 }
 
 .social-icon li:last-child a {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 ul {
@@ -459,7 +459,7 @@ h6 {
 }
 
 .dark-vertion {
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .dark-vertion.black-bg {
@@ -470,7 +470,7 @@ h6 {
   background: #100e17;
 }
 
-.dark-vertion ::placeholder {
+.dark-vertion::placeholder {
   color: #fff;
 }
 
@@ -523,7 +523,7 @@ h6 {
 }
 
 .dark-vertion .img-color-overlay {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, .9);
 }
 
 .dark-vertion .mh-home .mh-header-info .social-icon li .fa:hover {
@@ -573,26 +573,26 @@ h6 {
 }
 
 .dark-vertion .mh-home .hero-img img {
-  border: 20px solid rgba(0, 0, 0, 0.4);
+  border: 20px solid rgba(0, 0, 0, .4);
 }
 
 .dark-vertion .mh-home .img-border {
-  border: 20px solid rgba(0, 0, 0, 0.9);
+  border: 20px solid rgba(0, 0, 0, .9);
 }
 
 .dark-vertion .candidatos .parcial .progressBar {
-  background: rgba(199, 198, 198, 0.6);
+  background: rgba(199, 198, 198, .6);
 }
 
 .dark-vertion .mh-progress path:nth-child(1) {
-  stroke: rgba(255, 255, 255, 0.5);
+  stroke: rgba(255, 255, 255, .5);
 }
 
 body {
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .section-loader {
@@ -616,8 +616,8 @@ body {
   border-style: solid;
   opacity: 1;
   border-radius: 50%;
-  -webkit-animation: loader 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-  animation: loader 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  -webkit-animation: loader 1s cubic-bezier(0, .2, .8, 1) infinite;
+  animation: loader 1s cubic-bezier(0, .2, .8, 1) infinite;
 }
 
 .section-loader .loader div:nth-child(1) {
@@ -626,8 +626,8 @@ body {
 
 .section-loader .loader div:nth-child(2) {
   border-color: #0dbda1;
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
+  -webkit-animation-delay: -.5s;
+  animation-delay: -.5s;
 }
 
 .section-loader .loader {
@@ -643,7 +643,7 @@ body {
     left: 94px;
     width: 0;
     height: 0;
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
@@ -651,7 +651,7 @@ body {
     left: 57px;
     width: 74px;
     height: 74px;
-    opacity: 0;
+    opacity: 0
   }
 }
 
@@ -661,7 +661,7 @@ body {
     left: 94px;
     width: 0;
     height: 0;
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
@@ -669,7 +669,7 @@ body {
     left: 57px;
     width: 74px;
     height: 74px;
-    opacity: 0;
+    opacity: 0
   }
 }
 
@@ -679,10 +679,10 @@ body {
 
 .mh-header {
   padding: 20px 0;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
   z-index: 98;
   background-color: #202026;
   box-shadow: 2px 2px 10px black;
@@ -690,10 +690,10 @@ body {
 
 .mh-header.nav-strict {
   padding: 15px 0;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .mh-header .navbar-nav li {
@@ -736,7 +736,7 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0;
 }
 
 .mh-home .mh-header-info h2 {
@@ -783,18 +783,18 @@ body {
   line-height: 30px;
   padding: 4px 14px;
   margin-right: 10px;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
   border-radius: 3px;
 }
 
 .mh-home .mh-header-info .social-icon li .fa:hover {
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .mh-home .mh-header-info .social-icon li a {
@@ -818,14 +818,14 @@ body {
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 20px solid rgba(0, 0, 0, 0.17);
+  border: 20px solid rgba(0, 0, 0, .17);
   border-radius: 50%;
 }
 
 .mh-home .img-border {
   height: 80%;
   width: 80%;
-  border: 25px solid rgba(0, 0, 0, 0.07);
+  border: 25px solid rgba(0, 0, 0, .07);
   margin: 0 auto;
   border-radius: 50%;
 }
@@ -867,10 +867,10 @@ body {
 }
 
 .mh-about-tag ul li {
-  margin: 0px 6px;
+  margin: 0 6px;
   border-radius: 4px;
   margin-bottom: 10px;
-  padding: 4px 0px;
+  padding: 4px 0;
   display: inline-block;
 }
 
@@ -949,7 +949,7 @@ body {
 }
 
 .mh-progress path:nth-child(1) {
-  stroke: rgba(0, 0, 0, 0.7);
+  stroke: rgba(0, 0, 0, .7);
 }
 
 .mh-progress path:nth-child(2) {
@@ -977,7 +977,7 @@ body {
   left: 0;
   font-size: 15px;
   font-weight: 600;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .candidatos .parcial .info .eleito,
@@ -1000,7 +1000,7 @@ body {
   height: 7px;
   margin: 30px 0 2px;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, .5);
 }
 
 .candidatos .parcial .percentagem {
@@ -1030,13 +1030,13 @@ body {
 
 @-webkit-keyframes animationProgress {
   from {
-    width: 0;
+    width: 0
   }
 }
 
 @keyframes animationProgress {
   from {
-    width: 0;
+    width: 0
   }
 }
 
@@ -1050,9 +1050,9 @@ body {
 .mh-experince .mh-education-deatils .mh-education-item {
   margin-bottom: 30px;
   padding: 26px 30px;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 
 .mh-experince .mh-education-deatils .mh-education-item:last-child {
@@ -1101,9 +1101,9 @@ body {
   margin-bottom: 30px;
   padding: 20px 30px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 
 .mh-work .mh-experience-deatils .mh-work-item:last-child {
@@ -1177,9 +1177,9 @@ body {
 
 .nav-strict {
   z-index: 99;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 
 .mh-fixed-nav {

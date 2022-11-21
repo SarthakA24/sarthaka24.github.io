@@ -31,13 +31,6 @@
     scrollThreshold: 0.5,
   });
 
-  /* WOW ANIMATION */
-  var wow = new WOW({
-    mobile: true
-  });
-  wow.init();
-
-
   /* NAV FIXED ON SCROLL */
   $(window).on('scroll', function () {
     var scroll = $(window).scrollTop();

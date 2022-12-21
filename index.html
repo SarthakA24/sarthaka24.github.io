@@ -18,9 +18,12 @@
     <link rel="stylesheet" href="assets/plugins/css/animate.css">
     <link rel="stylesheet" href="assets/css/styles-min.css">
     <link rel="stylesheet" href="assets/css/responsive-min.css">
+    <link rel="stylesheet" href="assets/css/cursor.css">
 </head>
 
 <body class="dark-vertion black-bg">
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
     <div class="section-loader">
         <div class="loader">
             <div></div>
@@ -55,7 +58,8 @@
                     <div class="col-sm-6">
                         <div class="mh-header-info">
                             <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                <span>Hello I'm</span></div>
+                                <span>Hello I'm</span>
+                            </div>
                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Sarthak Agarwal</h2>
                             <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Full Stack Software
                                 Developer </h4>
@@ -406,30 +410,7 @@
     <script src="assets/plugins/js/circle-progress.js"></script>
     <script src="assets/plugins/js/jquery.nav.js"></script>
     <script src="assets/js/custom-scripts-min.js"></script>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyAJbt-8jtHEMU094Dzj6qeXsN02_LKbVoE",
-          authDomain: "sarthak-website-6d4db.firebaseapp.com",
-          databaseURL: "https://sarthak-website-6d4db-default-rtdb.asia-southeast1.firebasedatabase.app",
-          projectId: "sarthak-website-6d4db",
-          storageBucket: "sarthak-website-6d4db.appspot.com",
-          messagingSenderId: "33618129563",
-          appId: "1:33618129563:web:beaa7f186c9448e39d0c3e",
-          measurementId: "G-JRTQ7N5MGG"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
+    <script src="assets/js/cursor.js"></script>
 </body>
 
 </html>
